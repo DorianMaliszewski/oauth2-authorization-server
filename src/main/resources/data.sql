@@ -44,7 +44,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `oauth_user` WRITE;
 INSERT INTO oauth_user (username, password, email, name, role_id) VALUES
-('superadmin','{bcrypt}$2a$10$iKqpJr8SMpTG70whcnWKl.5jhAXjjsbwCr.0fFkDBsA9lCbWgvh4i','contact@hospitalink.fr','Super Administrateur', 1),
+('superadmin','{bcrypt}$2a$10$iKqpJr8SMpTG70whcnWKl.5jhAXjjsbwCr.0fFkDBsA9lCbWgvh4i','maliszewskid3@gmail.com','Super Administrateur', 1),
 ('admin','{bcrypt}$2a$10$iKqpJr8SMpTG70whcnWKl.5jhAXjjsbwCr.0fFkDBsA9lCbWgvh4i','admin@exemple.com','Administrateur',2),
 ('user','{bcrypt}$2a$10$FVd/WcOPdDU.k8Z4MmSyZOgfz0/r1lViAScSSK/Tr.MWyzO3OLuSW','user@exemple.com','Utilisateur',3);
 UNLOCK TABLES;
